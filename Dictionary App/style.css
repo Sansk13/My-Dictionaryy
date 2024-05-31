@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 81, 128);
+}
+
+.card{
+    width: auto;
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 3rem 2rem;
+    
+}
+.property{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+
+}
+.search-form{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+    background-color: black;
+    margin-bottom: 1rem;
+}
+
+
+.search-form input,
+.search-form button{
+    flex-basis: 70%;
+    font-size:1 rem;
+    padding : .6rem 1rem;
+    border :none;
+    outline: none;
+    background-color: transparent;
+    color :white;
+}
+.search-form button{
+    flex-basis: 30%;
+     cursor:pointer;
+     border-left: 1px solid #545454 ;
+}
+.search-form button:hover{
+    background-color: white;
+    color :black;
+}
